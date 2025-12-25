@@ -1,9 +1,9 @@
 # 🥗 FoodConnect
 ### Share Food, Share Love.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-Hackathon_Prototype-orange.svg)
-![Tech](https://img.shields.io/badge/built%20with-Vite%20%7C%20Firebase%20%7C%20Leaflet-green)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+![Status](https://img.shields.io/badge/status-Hackathon_Prototype-orange.svg)  
+![Tech](https://img.shields.io/badge/built%20with-Vite%20%7C%20Firebase%20%7C%20Leaflet-green) 
 
 > **"Bridging the gap between surplus food and hunger, one meal at a time."**
 
@@ -36,6 +36,24 @@ Roughly one-third of the food produced in the world for human consumption every 
 
 ---
 
+## 📂 Project Structure
+
+```
+foodconnect/
+├── src/
+│   ├── main.js          # Core application logic & Firebase init
+│   └── style.css        # Global styles & responsive design
+├── .env                 # Keep your API Keys here
+├── .env.example         # Template for environment variables
+├── index.html           # Main entry point & layout
+├── package.json         # Dependencies & scripts
+├── vite.config.js       # Vite configuration
+├── License              # MIT LICENSE
+└── README.md            # Project Documentation
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, CSS3, JavaScript (ES6 Modules)
@@ -46,8 +64,19 @@ Roughly one-third of the food produced in the world for human consumption every 
 ---
 
 ## 📸 Screenshots
+* **Landing Page**
+<img width="1904" height="992" alt="Screenshot 2025-12-25 173552" src="https://github.com/user-attachments/assets/d6520659-cf6c-4c3f-9e27-489f56f5f0af" />
+<img width="1901" height="993" alt="Screenshot 2025-12-25 173613" src="https://github.com/user-attachments/assets/ba863eaf-50e4-420d-bed4-686df088e9f1" />
 
+* **Donor Mode**  
+<img width="1905" height="991" alt="Screenshot 2025-12-25 173712" src="https://github.com/user-attachments/assets/8645d88c-5d6a-4a55-bfff-47daf4d7431e" />
 
+* **Beneficiary Mode**
+<img width="1919" height="991" alt="Screenshot 2025-12-25 174219" src="https://github.com/user-attachments/assets/e6960e18-3240-4d67-bca1-bcaa862a88c2" />       
+
+* **FoodConnect Demo**
+
+https://github.com/user-attachments/assets/9f4d6c3b-4db1-4606-8038-0cce336db6c8
 
 ---
 
@@ -92,22 +121,6 @@ Open the local link provided (usually http://localhost:5173) in your browser.
 
 ---
 
-## 📂 Project Structure
-
-```
-foodconnect/
-├── src/
-│   ├── main.js          # Core application logic & Firebase init
-│   └── style.css        # Global styles & responsive design
-├── .env                 # Keep your API Keys here
-├── .env.example         # Template for environment variables
-├── index.html           # Main entry point & layout
-├── package.json         # Dependencies & scripts
-├── vite.config.js       # Vite configuration
-├── License              # MIT LICENSE
-└── README.md            # Project Documentation
-```
----
 ## 🔮 Future Improvements
 * Push Notifications: Alert beneficiaries when food is posted nearby.
 
